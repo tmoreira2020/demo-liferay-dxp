@@ -1,6 +1,12 @@
 {
 	"id": "liferay",
 	"image": "wedeploy/liferay:dxp-sp5-20171018",
-	"memory": 4096,
-	"cpu": 3
+  "memory": 4096,
+  "cpu": 3,
+  "dependencies": ["db", "es"],
+  "volume": "/opt/liferay/data",
+  "healthCheck": {
+    "url": "localhost:8080",
+    "startPeriod": 500
+  }
 }
