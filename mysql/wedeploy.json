@@ -7,6 +7,6 @@
     "character-set-server": "utf8mb4",
     "collation-server": "utf8mb4_unicode_ci"
   },
-  "volume": "/var/lib/mysql",
+  "volume": "/shared",
   "zeroDowntime": false
 }
