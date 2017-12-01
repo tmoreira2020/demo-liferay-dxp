@@ -1,0 +1,2 @@
+path.data: /shared/elasticsearch/data
+network.host: 0.0.0.0
