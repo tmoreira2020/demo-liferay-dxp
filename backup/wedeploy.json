@@ -1,0 +1,19 @@
+{
+    "id": "bkp",
+    "image": "tmoreira2020/service-liferay-backuper:1.2",
+    "env": {
+      "MYSQL_HOST": "db",
+      "MYSQL_USER": "root",
+      "MYSQL_PASSWORD": "passw0rd",
+      "AWS_ACCESS_KEY": "AKIAISA5TV6KMVU26WQA",
+      "AWS_SECRET_KEY": "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",
+      "AWS_S3_PATH": "s3://liferay-service-backuper",
+      "CRON_SCHEDULE": "*/15 * * * *"
+    },
+    "volumes": {
+      "data": "/opt/liferay/data"
+    },
+    "dependencies": ["liferay", "db"],
+    "zeroDowntime": false
+  }
+  
