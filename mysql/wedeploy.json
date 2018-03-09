@@ -4,6 +4,9 @@
   "env": {
     "MYSQL_DATABASE": "lportal",
     "MYSQL_ROOT_PASSWORD": "passw0rd",
-  },
+    "AWS_ACCESS_KEY": "AKIAISA5TV6KMVU26WQA",
+    "AWS_SECRET_KEY": "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",
+    "AWS_S3_PATH": "s3://liferay-service-backuper"
+},
   "zeroDowntime": false
 }
