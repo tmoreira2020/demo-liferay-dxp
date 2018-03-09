@@ -3,6 +3,11 @@
 	"image": "tmoreira2020/service-liferay-liferay-dxp:1.3",
 	"memory": 4096,
 	"cpu": 3,
+	"env": {
+		"AWS_ACCESS_KEY": "AKIAISA5TV6KMVU26WQA",
+		"AWS_SECRET_KEY": "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",
+		"AWS_S3_PATH": "s3://liferay-service-backuper"
+	},
 	"dependencies": ["db", "es"],
 	"volumes": {
 		"data": "/opt/liferay/data"
