@@ -5,6 +5,5 @@
     "MYSQL_DATABASE": "lportal",
     "MYSQL_ROOT_PASSWORD": "passw0rd",
   },
-  "volume": "/var/lib/mysql",
   "zeroDowntime": false
 }
